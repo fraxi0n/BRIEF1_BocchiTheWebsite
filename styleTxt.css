@@ -48,3 +48,8 @@ font-family: "Sour Gummy";
 text-align: center;
 }
 
+.title-perso-name {
+    color: #111110;
+    text-shadow: 2px 1px 1px rgb(80, 80, 80);
+    
+}
