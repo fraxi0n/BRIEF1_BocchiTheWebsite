@@ -1,0 +1,50 @@
+.erica-one-regular {
+    font-family: "Erica One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.sour-gummy {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+
+@font-face {
+  font-family: 'Bocchi Font';
+  src: url('/src/thugolatz/thugolatz.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+
+    font-family: 'Bocchi Font',"Erica One";
+    font-size: 32px;
+    color: #ffd615;
+    padding: 1rem;
+    
+    text-shadow: 3px 1px 1px black;
+}
+
+
+h2 {
+        color: rgb(228, 227, 205);
+    font-size: 36px; 
+font-family: "Sour Gummy";
+text-align: center;
+}
+
+h3 {
+    font-size: 32px; 
+font-family: "Sour Gummy";
+text-align: center;
+}
+

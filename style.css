@@ -1,0 +1,160 @@
+ * {
+    margin : 5px ;
+    /* display : flex ; */
+    /* flex-direction : column ; */
+    
+}
+
+
+* div {
+    
+    display : flex ; 
+    
+}
+
+a {
+    color :   rgba(13, 63, 60, 0.9);
+    
+}
+
+a  :visited{
+    color :   rgba(13, 63, 60, 0.9);
+    
+}
+
+
+head {display: none;}
+
+
+body {
+    background-image: url(src/attaches.webp);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: rgba(48, 47, 44, 0.842);
+    
+}
+
+
+
+header {
+    
+    display: flex;
+    background-color: rgba(55, 55, 48, 0.628);
+    
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.header-img {
+    width: 100px;
+    margin: 5px;
+    
+}
+
+.header-box-perso {
+    
+    flex-direction : row ;
+}
+
+
+
+
+.nav-main-box {
+    flex-direction : row ; 
+}
+
+@media (max-width: 1000px) {
+    .nav-main-box {
+    flex-direction : column ; 
+}
+
+nav {
+    background-color: rgba(238, 238, 227, 0.9);
+    order : -1;
+        flex-direction : row ; 
+}
+
+
+
+}
+
+nav {
+    background-color: rgba(238, 238, 227, 0.9);
+    order : -1
+}
+
+main {
+    background-color: rgba(55, 55, 48, 0.9);
+    width: 100%;
+}
+
+.main-parent {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.main-child-0g {
+    
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-child-1g {
+    flex-direction : column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-child-2g {
+    max-width: 60%;
+    background-color: rgb(218, 202, 80);
+    
+    text-align: center;
+    color: black;
+    
+    border: solid #111110 5px;
+    flex-wrap: wrap;
+
+    
+}
+
+.footer-parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes égales */
+    gap: 50px; /* optionnel : espace entre les colonnes */
+    grid-auto-flow: column ;
+    
+    
+    
+}
+.footer-child-1g {
+    
+    border: solid #111110 5px;
+    background-color: rgb(228, 227, 205);
+    padding: 20px;
+    color: white;
+    /* text-size-adjust: auto; */
+    
+}
+
+.bocchi-main {
+    background-color: rgb(228, 227, 205);
+    
+    
+    
+    
+}
+
+.gif { height: 400px;}
+
+.gif-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
