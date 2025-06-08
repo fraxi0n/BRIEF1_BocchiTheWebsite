@@ -67,6 +67,16 @@ header {
     flex-direction : row ; 
 }
 
+.nav-title {
+    flex-direction : column ; 
+    text-align: center;
+
+}
+
+
+
+
+
 
 
 nav {
